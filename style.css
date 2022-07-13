@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.grid img{
+    width: calc(20% - 5px);
+    border: 1px solid #ddd;
+}
